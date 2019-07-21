@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private var data = listOf<Fragment>(OneFragment(), TwoFragment(), ThreeFragment())
+    private var data = listOf<Fragment>(OneFragment(), TwoFragment(), ThreeFragment(),FourFragment())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         val mAdapter = ViewStatePagerAdapter(supportFragmentManager)
         mAdapter.submitData(data)
         viewPager.adapter = mAdapter
+        viewPager.currentItem=1
+        //viewPager.offscreenPageLimit=2
         tabLayout.setupWithViewPager(viewPager)
     }
 }

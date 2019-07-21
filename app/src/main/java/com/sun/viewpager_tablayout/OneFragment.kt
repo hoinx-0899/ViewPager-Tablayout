@@ -1,4 +1,5 @@
 package com.sun.viewpager_tablayout
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,6 +9,10 @@ import androidx.fragment.app.Fragment
 import com.sun.viewpager_tablayout.R
 
 class OneFragment : Fragment() {
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        Log.d("ONE-FRAGMENT","onAttach")
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

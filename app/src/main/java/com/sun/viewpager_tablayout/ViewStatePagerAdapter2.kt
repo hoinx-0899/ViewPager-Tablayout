@@ -2,9 +2,11 @@ package com.sun.viewpager_tablayout
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
 import androidx.fragment.app.FragmentStatePagerAdapter
+import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class ViewStatePagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
+class ViewStatePagerAdapter2(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager) {
 
     private var data = emptyList<Fragment>()
 
