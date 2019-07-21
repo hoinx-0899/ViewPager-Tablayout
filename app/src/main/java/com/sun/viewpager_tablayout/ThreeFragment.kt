@@ -14,6 +14,7 @@ class ThreeFragment :Fragment(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
 
     }
 
