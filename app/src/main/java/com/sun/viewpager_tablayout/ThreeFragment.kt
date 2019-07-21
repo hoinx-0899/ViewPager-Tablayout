@@ -15,6 +15,9 @@ class ThreeFragment :Fragment(){
         super.onCreate(savedInstanceState)
         Log.d("Three-FRAGMENT","onCreate")
         Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
 
     }
 
