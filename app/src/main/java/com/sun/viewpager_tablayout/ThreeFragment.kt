@@ -21,6 +21,8 @@ class ThreeFragment :Fragment(){
         Log.d("Three-FRAGMENT","onCreate")
         Log.d("Three-FRAGMENT","onCreate")
         Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
+        Log.d("Three-FRAGMENT","onCreate")
 
     }
 
